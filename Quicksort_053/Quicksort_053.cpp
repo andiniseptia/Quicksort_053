@@ -48,4 +48,7 @@ void q_short(int low, int high)
 	//Partition the list into two parts;
 	//One containing elements less that or equal to pivot
 	//Outher containing elements grather than pivot
+
+	pivot = arr[low]; //Langkah 2
+
 }
