@@ -85,4 +85,9 @@ void q_short(int low, int high)
 		swap(low, j);
 		mov_count++;
 	}
+	//Sort the list on the left of pivot using quick sort
+	q_short(low, j - 1); //Langkah 12
+
+	//Sort the list on the right of pivot using quick sort
+	q_short(j + 1, high); //Langkah 13
 }
